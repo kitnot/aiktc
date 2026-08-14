@@ -10,12 +10,12 @@ pipeline {
         }
  stage('Test') {
             steps {
-                echo 'Testing automatically'
+                echo 'Testing automatically.'
             }
         }
  stage('Deploy') {
             steps {
-                echo 'Deploying automatically'
+                echo 'Deploying automatically.'
             }
         }
     }
